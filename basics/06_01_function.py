@@ -8,4 +8,6 @@ function_module = importlib.import_module("06_function")
 
 if __name__ == '__main__':
     # 导入时不会执行原文件主入口中的三次调用，这里主动调用一次。
-    function_module.welcome()
+    # function_module.welcome()
+    print(f'当前 __name__ = {__name__}')
+
